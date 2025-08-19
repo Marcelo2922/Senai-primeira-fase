@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // inteiro salario, salario_diario
+      // inteiro salario, salario_diario
     // inteiro dias
     // escreva ("Quanto você recebe? ", salario)
     // leia (salario)
@@ -66,9 +66,8 @@ programa {
     // real critico_jogador, dano_npc,bonus
     // escreva ("Quanto de dano a espada da? ", dano_npc)
     // leia (dano_npc)
-    // escreva ("Quanto de bonus da?: ",bonus)
-    // leia (bonus)
-    // critico_jogador = dano_npc * 1.5 + bonus
+    // bonus = 1.5*dano_npc/2
+    // critico_jogador = dano_npc + bonus
     // escreva ("Critico é de: ",critico_jogador)
 
     // real media2, n1, p1, n2, p2
@@ -83,13 +82,57 @@ programa {
     // media2 = (n1*p1+n2*p2)/(p1+p2)
     // escreva ("Media de nota: ",media2)
 
-    real poupanca,salario2,moradia,agua,luz,internete,gasolina,netflix,telefone,outros
-    escreva ("Qual seu salario? ",salario2)
-    leia(salario2)
-    escreva ("Qual o valor do aluguel? ", moradia)
-    leia (moradia)
-     escreva ("Qual o valor do agua? ", agua)
-    leia (agua)
-    
+   //  real poupanca,salario2,moradia,agua,luz,internete,gasolina,netflix,telefone,outros
+   //   escreva ("Qual seu salario? ")
+   //   leia(salario2)
+   //   escreva ("Qual o valor do aluguel? ")
+   //   leia (moradia)
+   //    escreva ("Qual o valor do agua? ")
+   //   leia (agua)
+   //    escreva ("Qual o valor da sua luz? ")
+   //   leia(luz)
+   //   escreva ("Qual o valor do internete? ")
+   //   leia (internete)
+   //    escreva ("Qual o valor do gasolina? ")
+   //   leia (gasolina)
+   //    escreva ("Qual o valor da netflix? ")
+   //   leia(netflix)
+   //   escreva ("Qual o valor do telefone? ")
+   //   leia (telefone)
+   //    escreva ("Qual o valor do outros? ")
+   //   leia (outros)
+   // poupanca = salario2 -(moradia + agua + luz + internete + gasolina + netflix + telefone + outros)
+   // escreva ("Sua poupança é de R$ ", poupanca)
+
+   //  real cafe3, coxinha3, halls3, doce_de_leite3
+   //   real conta3
+   //    escreva("\nQuanto ta o cafe? ")
+   //   leia (cafe3)
+   //   escreva("Quanto ta a coxinha? ")
+   //   leia(coxinha3)
+   //   escreva("Quanto ta o halls? ")
+   //   leia (halls3)
+   //   escreva ("Quanto ta o doce de leite? ")
+   //   leia (doce_de_leite3)
+   //   conta3 = 3*(cafe3 + coxinha3 + halls3) + 2* (doce_de_leite3)
+   //   escreva ("O valor da conta foi R$ ", conta3)
+
+  //  inteiro cafe4, alunos1, cafe_per_capita
+  //  escreva ("Quantos café tem? ")
+  //  leia(cafe4)
+  //  escreva ("Quantos alunos tem? ")
+  //  leia (alunos1)
+  //  cafe_per_capita = cafe4 / alunos1
+  //  escreva ("Cada aluno ganha ", cafe_per_capita, " cafe")
+
+  
+   inteiro cafe5, alunos2, cafe_per_capita2, extra
+   escreva ("Quantos café foram consumidos? ")
+   leia(cafe5)
+   escreva ("Quantos alunos foram tomar café? ")
+   leia (alunos2)
+   extra = cafe5 *5/10
+   cafe_per_capita2 = (cafe5+extra) / alunos2
+   escreva ("A quantidade de cafe foi cunsumido por pessoa foi de ", cafe_per_capita2)
   }
 }
