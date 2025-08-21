@@ -114,7 +114,7 @@ programa {
      leia (halls3)
      escreva ("Quanto ta o doce de leite? ")
      leia (doce_de_leite3)
-     conta3 = 3*cafe3 + coxinha3 + halls3 + 2* doce_de_leite3
+     conta3 = 3*cafe3 + coxinha3 + halls3 + 2*doce_de_leite3
      escreva ("O valor da conta foi R$ ", conta3)
 
    inteiro cafe4, alunos1, cafe_per_capita
