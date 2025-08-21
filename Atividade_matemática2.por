@@ -54,7 +54,7 @@ programa {
     leia (halls2)
     escreva ("Quanto ta o doce de leite? ", doce_de_leite2)
     leia (doce_de_leite2)
-    conta2 = 2*(cafe2 + coxinha2 + halls2 + doce_de_leite2)
+    conta2 = 2*cafe2 + coxinha2 + halls2 + doce_de_leite2
     escreva ("O valor da conta é: R$ ", conta2)
 
     real critico, dano
@@ -114,7 +114,7 @@ programa {
      leia (halls3)
      escreva ("Quanto ta o doce de leite? ")
      leia (doce_de_leite3)
-     conta3 = 3*(cafe3 + coxinha3 + halls3) + 2* (doce_de_leite3)
+     conta3 = 3*cafe3 + coxinha3 + halls3 + 2* doce_de_leite3
      escreva ("O valor da conta foi R$ ", conta3)
 
    inteiro cafe4, alunos1, cafe_per_capita
