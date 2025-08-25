@@ -40,12 +40,16 @@ programa {
     leia(n2)
     soma = n1*n1 + n2*n2
     escreva("Resutado: ", soma)
+ 
+     // exercicio  5
 
     inteiro n
     escreva("Digite um número: ")
     leia (n)
     inteiro valor = Matematica.raiz (n,2)
     escreva("A raiz é: ",valor)
+
+     // exercicio 6
 
     real num1,num2, soma2
     escreva("Digite um número: ")
