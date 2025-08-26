@@ -25,7 +25,7 @@ programa {
       escreva("\nParabems ", nome, ", você foi provado")
       }
       senao {
-        escreva("\nInfelizmente", nome, ", você reprovado")
+        escreva("\nInfelizmente ", nome, ", você reprovado")
       }
 
   }
