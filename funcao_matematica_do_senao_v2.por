@@ -18,9 +18,10 @@ programa {
     limpa ()
     media = (nota1+nota2+nota3)/3
     media = Matematica.arredondar (media,2)
+    frequencia = frequencia*100
       escreva("\nA media de nota: ", media)
       escreva("\nA frequencia: ", frequencia, "% \n")
-      se (media >=7 e frequencia >=0.7 ){
+      se (media >=7 e frequencia >=70 ){
       escreva("\nParabems ", nome, ", você foi provado")
       }
       senao {
