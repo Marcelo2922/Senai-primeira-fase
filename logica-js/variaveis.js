@@ -5,11 +5,11 @@
 // let nome = "Marcelo"
 // nome = "Marcos"
 //Variavel declarada com const
-const nome = "Marcelo" // string
-const sobrenome = "Oliveira"
-const idade = 21 // number
-const masculino = true //boolean
-const nome_completo = nome +  " " + sobrenome
+// const nome = "Marcelo" // string
+// const sobrenome = "Oliveira"
+// const idade = 21 // number
+// const masculino = true //boolean
+// const nome_completo = nome +  " " + sobrenome
 // Array
 const frutas = ["laranja","maçã","banana"]
 console.log(frutas[0])
