@@ -1,3 +1,4 @@
+// Classificação de Notas: Peça ao usuário para inserir sua nota em uma escala de 0 a 100 e, em seguida, atribua uma classificação (A, B, C, D ou E) com base na nota.
 let nota = prompt("Digite sua nota: ")
 if (nota >=90) {
     alert("Sua nota é A")
