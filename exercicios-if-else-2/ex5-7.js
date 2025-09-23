@@ -1,11 +1,11 @@
 let dias = Number(prompt("Digite a quantidade de dias hospedado: "))
-
+let diaria 
 if (dias <=5){
-    alert(`O valor da diaria é de R$ ${((dias*100) * 0.9)*0.85 + 150}`)
-} else if ( dias >= 6 && dias <=10 ){
-    alert(`O valor da diaria é de R$ ${((dias*90) * 0.9)*0.85 + 150}`)
-}else if ( dias >= 11){
-    alert(`O valor da diaria é de R$ ${((dias*80) * 0.9)*0.85 + 150}`)
+   diaria = 100
+} else if (dias <=10 ){
+    diaria = 90
 }else{
-    alert("Quantidade invalida!!!")
+    diaria = 80
 }
+let valor = ((dias*diaria) * 0.9)*0.85 + 150
+alert(`O valor total a ser pago é de R$ ${valor}`)
