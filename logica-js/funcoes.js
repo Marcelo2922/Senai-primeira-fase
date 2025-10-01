@@ -12,6 +12,14 @@
 //     return x+y
 // }
 
-const soma = (x,y) => x+y
+// const soma = (x,y) => x+y
+
+// console.log (soma (6,2))
+
+// const soma = (x,y) => x*y
+
+// console.log (soma (6,2))
+
+const soma = (x,y) => x/y
 
 console.log (soma (6,2))
