@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #aaa;
+}
+nav{
+    background-color: #bbb;
+}
+main{
+    background-color: #ccc;
+}
+footer{
+    background-color: #ddd;
+}
