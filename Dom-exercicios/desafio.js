@@ -8,8 +8,8 @@ function Calculo(){
     moeda25 =Number(document.getElementById("moeda25").value)
     moeda10 =Number(document.getElementById("moeda10").value)
     moeda5 =Number(document.getElementById("moeda5").value)
-    total = Number(moeda1+moeda50+moeda25+moeda10+moeda5) 
-    compra = Number(total - produto)
+    total = moeda1+moeda50+moeda25+moeda10+moeda5
+    compra = total - produto
     document.getElementById("Resposta").innerHTML = `Valor total no porco é de R$${total}`
     document.getElementById("valor_total").innerHTML = `Valor total no porco é de R$${compra}`
 }
