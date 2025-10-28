@@ -6,7 +6,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f2f5;
+  background-color: #000102ad;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@ header {
   margin-bottom: 20px;
 }
 h1 {
-  color: #333;
+  color: #d1cfcf;
 }
 nav {
   background-color: #fff;
@@ -73,10 +73,4 @@ button:hover {
   margin-top: 15px;
   font-weight: bold;
   text-align: center;
-}
-#valor_total.success {
-  color: #28a745; 
-}
-#valor_total.error {
-  color: #dc3545; 
 }
