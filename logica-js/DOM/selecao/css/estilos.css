@@ -90,5 +90,28 @@ main {
 }
 
 footer {
-    background-color: #ddd;
+    background-color: #333232;
+    padding:15px 0;
+    color: #fff;
+    text-align: center;
+}
+
+/* arquivo serviços */
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    &#show{
+        background: rgb(25, 0, 255);
+    }
+    &#hide{
+        background: red;
+    }
 }
