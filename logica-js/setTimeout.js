@@ -1,17 +1,17 @@
 // setTimeout(()=>{
-//     console.log("Executei depois de 3s")
+//     console.log("Executei depois de 3 seg")
 // },3000)
 
-const soma = ()=>console.log (6+2)
-
-
 function saudacao(){
-    console.log("Ola")
+    console.log("olá")
 }
 
-function imprime_dado(){
-    console.log("Imprimir")
+function imprimeDado(){
+    console.log("imprimir")
 }
+
+const soma = ()=> console.log(5+2)
+
+setTimeout(imprimeDado,5000)
 saudacao()
-setTimeout(soma,2000)
-setTimeout(imprime_dado,5000)
+setTimeout(soma,3000)

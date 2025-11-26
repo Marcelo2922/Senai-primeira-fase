@@ -1,16 +1,16 @@
 // setInterval(()=>{
-//     console.log("Executei")
+//     console.log("executei")
 // },2000)
 
-const prompt = require ('prompt-sync')()
+const prompt = require('prompt-sync')()
 
-let contador_incial = Number(prompt("Digite um valor inicial: "))
-let contador_final = Number (prompt('digite um valor final: '))
+let contadorInicial = Number(prompt("Digite um valor inicial: "))
+let contadorFinal = Number(prompt("Digite um valor final: "))
 
 let intervalo = setInterval(()=>{
-    console.log(contador_incial)
-    contador_incial+=5
-    if (contador_incial > contador_final){
+    console.log(contadorInicial)
+    contadorInicial++
+    if(contadorInicial > contadorFinal){
         clearInterval(intervalo)
     }
-},100)
+},1000)

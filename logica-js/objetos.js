@@ -1,9 +1,10 @@
 const usuario = {
-    login:"username", 
+    login:"username",
     email:"email@gmail.com",
     saldo:50000.00,
-    islogin:true,
+    isLogin:true,
     senha:"123456789"
 }
 
-console.log(`O email do usuario é ${usuario.email} e o seu saldo é ${usuario.saldo}`)
+console.log(`O email do usuário é ${usuario.email} e
+seu saldo é ${usuario.saldo}`)

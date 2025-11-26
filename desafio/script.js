@@ -1,4 +1,4 @@
-let nomes = ["Leonardo","Patolino","Pernalonga"];
+let nomes = ["Leonardo","Marcelo","Maicon"];
 
 if (!nomes.includes("Patolino")) {
    
